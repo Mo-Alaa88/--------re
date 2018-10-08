@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: 1.2;
+    padding: 0 2em;
+    text-align: center;
+    overflow-wrap: break-word;
+    color: white;
+
+}
+img{
+    border-radius: 50% ;
+}
+/* .up {
+    width: 100%;
+} */
+
+.capt {
+    text-transform: capitalize;
+}
+/* .mob {
+    border-radius: 50% ;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 0% 47%;
+}
+*/
+.fa {
+    font-size:xx-large;
+    /* color:black; */
+ } 
+ a{
+     text-decoration: none;
+     color: black;
+     /* font-size: 1.5em; */
+     font-weight: bold;
+     /* text-shadow: 3px 2px #00070d ; */
+}
+.redBack {
+    background-color: red;
+}
+p{
+    text-align: left;
+}
+.data{
+    text-align: center;
+    font-size: 1.1em;
+}
+.grayBack {
+    background-color: #00070d;
+    padding-top: 21px;
+}
+
+.buttonSection > aside > h2 {
+    color:#fe9570;
+    text-transform: uppercase;
+}
+
+p > a {
+    color: white;
+
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 25px;
+  }
+
+.myBar {
+    height: 30px;
+    background-color: #fe9570;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 25px;
+}
+
+#a95{
+    width: 95%;
+}
+
+#a90{
+    width: 90%;
+}
+
+#a80{
+    width: 80%;
+}
+
+#a70{
+    width: 70%;
+}
+@media only screen and (min-width:750px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {
+        width: 33.33%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .col-5 {width: 41.66%;}
+    .col-6 {
+        width: 50%;
+        padding-left: 25px;
+        padding-right: 10px;
+    }
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .blockDis {
+        display: block;
+        float: left;
+        width: 70%;
+    }
+    .data{
+        display: flex;
+        float: left;
+        width: 30%;
+    }
+    #myProgress{
+        margin-top: 20px;
+        width: 70%;
+        background-color: #ddd;
+        border-radius: 25px;
+        height: 30px;    
+        line-height: 30px;
+    }
+    .blackHall {
+        display: flex; 
+        width: 100%;
+    }
+    h4{
+        display: flex;
+        float: left;
+        width: 30%;
+    }
+    .grayBack{
+        display: inline-block;
+    }
+    .inline{
+        display: flex;
+
+    }
+}
