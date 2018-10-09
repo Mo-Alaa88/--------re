@@ -11,31 +11,18 @@ body {
 img{
     border-radius: 50% ;
 }
-/* .up {
-    width: 100%;
-} */
 
 .capt {
     text-transform: capitalize;
 }
-/* .mob {
-    border-radius: 50% ;
-    background-color: white;
-    width: 40px;
-    height: 40px;
-    margin: 0% 47%;
-}
-*/
+
 .fa {
     font-size:xx-large;
-    /* color:black; */
  } 
  a{
      text-decoration: none;
      color: black;
-     /* font-size: 1.5em; */
      font-weight: bold;
-     /* text-shadow: 3px 2px #00070d ; */
 }
 .redBack {
     background-color: red;
@@ -95,6 +82,9 @@ h4 {
 
 #a70{
     width: 70%;
+}
+footer > a {
+    color: white;
 }
 @media only screen and (min-width:750px){
     .col-1 {width: 8.33%;}
