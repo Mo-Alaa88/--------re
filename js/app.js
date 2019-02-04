@@ -10,7 +10,7 @@ nameArray.forEach((title,index)=>{
         // Create div block
         const div = `<div class=" blue" >
         <h3 class=' project data'>${title}</h3>
-        <p>You can viste online website by this <a href="${liveArray[index]}" title="click">${title}</a></p>
+        <p>You can  visit online website by this <a href="${liveArray[index]}" title="click">${title}</a></p>
         <p>My project repository <a href='${gitArray[index]}' title=''>${gitArray[index]}</a></p>
         </div>`;
         // 
@@ -20,7 +20,7 @@ nameArray.forEach((title,index)=>{
         // Create div block
         const div = `<div class="mediamBlue " >
         <h3 class=' project data'>${title}</h3>
-        <p>You can viste online website by this <a href="${liveArray[index]}" title="">${title}</a></p>
+        <p>You can  visit online website by this <a href="${liveArray[index]}" title="">${title}</a></p>
         <p>My project repository <a href='${gitArray[index]}' title=''>${gitArray[index]}</a></p>
         </div>`;
         // appand div with template
