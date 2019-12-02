@@ -1,3 +1,7 @@
+/* HTML5 Support */
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
 :root {
     /* --mainBlack : black;
     --mainWhite : white;
