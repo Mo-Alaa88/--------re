@@ -1,7 +1,7 @@
 
-const nameArray = [`Simple Todolist`,`Task`,`Badrit`,`Apple`,`Arcade Game`,`Memory Game`,`Restaurant Stage`],
-    liveArray = [`https://mo-alaa88.github.io/simple-Todolist/`,`https://mo-alaa88.github.io/task/`,`https://mo-alaa88.github.io/badrit/`,`https://mo-alaa88.github.io/Apple/`,`https://mo-alaa88.github.io/Arcade-Game/`,`https://mo-alaa88.github.io/Memory-Game/`,`none`],
-    gitArray = [`https://github.com/Mo-Alaa88/simple-Todolist`,`https://github.com/Mo-Alaa88/task`,`https://github.com/Mo-Alaa88/badrit`,`https://github.com/Mo-Alaa88/Apple
+const nameArray = [`Simple Todolist`,`Badrit`,`Apple`,`Arcade Game`,`Memory Game`,`Restaurant Stage`],
+    liveArray = [`https://mo-alaa88.github.io/simple-Todolist/`,`https://mo-alaa88.github.io/badrit/`,`https://mo-alaa88.github.io/Apple/`,`https://mo-alaa88.github.io/Arcade-Game/`,`https://mo-alaa88.github.io/Memory-Game/`,`https://mo-alaa88.github.io/Restaurant-Stage/`],
+    gitArray = [`https://github.com/Mo-Alaa88/simple-Todolist`,`https://github.com/Mo-Alaa88/badrit`,`https://github.com/Mo-Alaa88/Apple
     `,`https://github.com/Mo-Alaa88/Arcade-Game`,`https://github.com/Mo-Alaa88/Memory-Game`,`https://github.com/Mo-Alaa88/Restaurant-Stage`];
 // gnrate for nameArray
 nameArray.forEach((title,index)=>{

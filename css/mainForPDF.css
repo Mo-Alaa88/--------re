@@ -27,13 +27,13 @@ header, section, footer, aside, nav, main, article, figure {
 }
 
 body {
-    background-color: var(--mainBlack);
+    background-color: var(--mainWhite);
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     line-height: 1.2;
     padding: 0 2em;
     text-align: center;
     overflow-wrap: break-word;
-    color: var(--mainWhite);
+    color: var(--mainBlackas);
 }
 
 img{
@@ -68,7 +68,7 @@ p{
 }
 
 .grayBlack {
-    background-color: var(--mainGrayBlack);
+    background-color: var(--mainWhite);
     padding-top: 21px;
 }
 
